@@ -5,10 +5,10 @@ import java.util.Objects;
 /**
  * Created by fili_ on 9/1/2016.
  */
-abstract class Node<object>
+abstract class Node
 {
-    private Node<Object> nextInRow;
-    private Node<object> nextInColumn;
+    private Node nextInRow;
+    private Node nextInColumn;
     protected Node getNextInRow()
     {
         return nextInRow;

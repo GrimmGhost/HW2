@@ -5,10 +5,34 @@ package com.company.Nodes;
  */
 public class ColumnHeadNode extends HeadNode
 {
-    public ColumnHeadNode()
-    {
-        // set next in row and column to null
-        setNextColumn(null);
-        setNextRow(null);
+
+    @Override
+    HeadNode getNext() {
+        return null;
+    }
+
+    @Override
+    ValueNode getFirst() {
+        return null;
+    }
+
+    @Override
+    void insert(ValueNode value) {
+
+    }
+
+    @Override
+    ValueNode get() {
+        return null;
+    }
+
+    @Override
+    void setNextColumn(Object item) {
+
+    }
+
+    @Override
+    void setNextRow(Object item) {
+
     }
 }

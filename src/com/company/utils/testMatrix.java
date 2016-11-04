@@ -35,7 +35,7 @@ public class testMatrix
             }else
             {
                 System.out.println(counter + " ColumnHeadNode");
-                lastColumnHeadNode.setNextColumn(columnHeadNode);
+                //lastColumnHeadNode.setNextColumn(columnHeadNode);
                 lastColumnHeadNode = columnHeadNode;
             }
 
@@ -64,7 +64,7 @@ public class testMatrix
             }else
             {
                 System.out.println(counter + " RowHeadNode");
-                lastRowHeadNode.setNextRow(rowHeadNode);
+                //lastRowHeadNode.setNextRow(rowHeadNode);
                 lastRowHeadNode = rowHeadNode;
             }
 
